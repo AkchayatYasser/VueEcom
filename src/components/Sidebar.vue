@@ -5,7 +5,7 @@
         <ul class="flex flex-col gap-4">
             <li v-for="(item, index) in cart" :key="index" class="flex flex-col">
                 <div class="bg-slate-800 rounded-lg p-5 flex flex-col justify-center items-center  ">
-                    <img class="w-8 h-14 w-14 rounded-full" :src="item.image" alt="Neil image">
+                    <img class="h-14 w-14 rounded-full" :src="item.image" alt="Neil image">
                     <p class="text-white"> {{ item.title }} - <span class="font-bold text-gray-400"> ${{ item.price }} </span> </p>
                     <div class="flex gap-4 items-center">
                         <p class="text-white mt-4"> Quantity: {{ item.quantity }} </p>

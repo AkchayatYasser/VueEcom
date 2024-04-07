@@ -1,9 +1,42 @@
-# Vue 3 + TypeScript + Vite
+Vite Vue.js TypeScript E-Commerce App
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+[Live Demo](https://vue-ecom-murex.vercel.app/)
 
-## Recommended Setup
+Welcome to our Vite Vue.js TypeScript E-Commerce App!
 
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
+Features :
 
-- Use [vue-tsc](https://github.com/vuejs/language-tools/tree/master/packages/tsc) for performing the same type checking from the command line, or for generating d.ts files for SFCs.
+- Fetches products from a fake API store.
+- Implements search functionality to find products efficiently.
+- Provides a shopping cart to manage selected products.
+- Clicking on a product's title reveals its details.
+
+Technologies Used :
+- Vite: A fast build tool for modern web development.
+- Vue.js: A progressive JavaScript framework for building user interfaces.
+- TypeScript: A typed superset of JavaScript that compiles to plain JavaScript.
+- Tailwind CSS: A utility-first CSS framework for quickly building custom designs.
+
+Getting Started :
+
+Follow these steps to get the project up and running on your local machine:
+
+1- Clone the repository:
+```
+git clone https://github.com/AkchayatYasser/VueEcom.git
+```
+2- Navigate to the project directory:
+```
+cd VueEcom
+```
+3- Install dependencies:
+```
+npm install
+```
+4- Start the development server:
+```
+npm run dev
+```
+5- Open the application:
+
+Open your browser and navigate to http://localhost:4200.
